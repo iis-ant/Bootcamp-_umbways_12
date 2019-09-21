@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Jawaban Soal 2 iis kurniasih</h2> 
+    <div>
+        <h2>toString()</h2>
+
+        <p>2.	Buatlah sebuah	 array		 yang berisi beberapa		 index string:</p>
+        <p id="iis"></p>
+
+        <script>
+            var bootcamp = ['dumb','ways','the','best'];
+            document.getElementById("iis").innerHTML = bootcamp.toString();
+        </script>
+    </div>
+
+    <div>
+        <p> Coba dalam Boolean value:</p>
+
+        <p>Display the Boolean value of NaN:</p>
+
+        <button onclick="myFunction()">Try it</button>
+
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+        var word = 'dumbways';
+        document.getElementById("demo").innerHTML = Boolean(word);
+        }
+        </script>
+    </div>
+    
+   <div>
+        <script>
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo").innerHTML = Array.isArray(fruits);
+        </script>
+   </div>
+</body>
+</html>
